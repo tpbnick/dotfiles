@@ -1,6 +1,12 @@
 # dotfiles
 my dotfiles and other dev related stuff
 
+## Apps Install
+Install command:
+```shell
+cat apps.txt | xargs -L1 pamac install
+```
+
 ## Fonts
 VSCode:
 - [MonoLisa](https://github.com/lauer3912/Monolisa)
