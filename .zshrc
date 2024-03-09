@@ -20,7 +20,7 @@ export EDITOR='micro'
 # -------
 
 alias updatesys='sudo pacman -Syyu'
-alias open='xdg-open .'
+alias open='dolphin . >/dev/null 2>&1 &'
 alias c='clear'
 alias home='cd ~'
 
@@ -30,3 +30,4 @@ bindkey '5~' kill-word
 
 # Enable starship (starship.rs) - install: `curl -sS https://starship.rs/install.sh | sh`
 eval "$(starship init zsh)"
+source /home/nick/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
