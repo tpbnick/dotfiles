@@ -4,6 +4,7 @@ my dotfiles and other dev related stuff
 ## Fonts
 VSCode:
 - [MonoLisa](https://github.com/lauer3912/Monolisa)
+
 Terminal:
 - [SpaceMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/SpaceMono.zip)
 
