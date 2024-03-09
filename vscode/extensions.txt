@@ -1,0 +1,9 @@
+ms-python.vscode-pylance
+dbaeumer.vscode-eslint
+ms-python.isort
+zhuangtongfa.material-theme
+esbenp.prettier-vscode
+yoavbls.pretty-ts-errors
+ms-python.pylint
+bradlc.vscode-tailwindcss
+pkief.material-icon-theme
