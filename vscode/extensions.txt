@@ -1,4 +1,3 @@
-ms-python.vscode-pylance
 dbaeumer.vscode-eslint
 ms-python.isort
 zhuangtongfa.material-theme
@@ -7,3 +6,4 @@ yoavbls.pretty-ts-errors
 ms-python.pylint
 bradlc.vscode-tailwindcss
 pkief.material-icon-theme
+catppuccin.catppuccin-vsc

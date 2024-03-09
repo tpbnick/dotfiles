@@ -4,7 +4,7 @@
     "editor.fontLigatures": false,
     "editor.fontSize": 16,
     "prettier.useTabs": true,
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.mouseWheelZoom": true,
     "editor.suggestSelection": "first",
     "editor.experimentalInlineEdit.showToolbar": "onHover",
