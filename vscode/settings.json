@@ -1,6 +1,6 @@
 {
     "telemetry.telemetryLevel": "off",
-    "editor.fontFamily": "MonoLisa, Hack Nerd Font, SpaceMono Nerd Font",
+    "editor.fontFamily": "Hack Nerd Font, SpaceMono Nerd Font",
     "editor.fontLigatures": false,
     "editor.fontSize": 16,
     "prettier.useTabs": true,
@@ -23,7 +23,7 @@
     "git.enableSmartCommit": true,
     "git.openRepositoryInParentFolders": "never",
     "editor.accessibilitySupport": "off",
-    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.colorTheme": "GitHub Dark Default",
     "git.autofetch": true,
     "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"

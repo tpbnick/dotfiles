@@ -4,15 +4,14 @@ my dotfiles and other dev related stuff
 ## Apps Install
 Install command:
 ```shell
+# If using arch-based distro
 cat apps.txt | xargs -L1 pamac install
 ```
 
 ## Fonts
-VSCode:
-- [MonoLisa](https://github.com/lauer3912/Monolisa)
-
-Terminal:
-- [SpaceMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/SpaceMono.zip)
+[Nerd Fonts](https://www.nerdfonts.com/font-downloads)
+- Hack
+- Space Mono
 
 ## VSCode Setup
 Install extensions:
