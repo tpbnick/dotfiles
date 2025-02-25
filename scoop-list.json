@@ -1,0 +1,163 @@
+{
+	"buckets": [
+		{
+			"Name": "main",
+			"Source": "https://github.com/ScoopInstaller/Main",
+			"Updated": "2025-02-24T16:37:04-08:00",
+			"Manifests": 1382
+		},
+		{
+			"Name": "extras",
+			"Source": "https://github.com/ScoopInstaller/Extras",
+			"Updated": "2025-02-24T16:39:27-08:00",
+			"Manifests": 2130
+		},
+		{
+			"Name": "versions",
+			"Source": "https://github.com/ScoopInstaller/Versions",
+			"Updated": "2025-02-24T12:36:00-08:00",
+			"Manifests": 477
+		},
+		{
+			"Name": "nerd-fonts",
+			"Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+			"Updated": "2025-02-12T02:55:42-08:00",
+			"Manifests": 360
+		}
+	],
+	"apps": [
+		{
+			"Name": "7zip",
+			"Info": "",
+			"Version": "24.09",
+			"Source": "main",
+			"Updated": "2025-02-19T18:41:40.6565771-08:00"
+		},
+		{
+			"Name": "chromium",
+			"Info": "",
+			"Version": "133.0.6943.127-r1402768",
+			"Source": "extras",
+			"Updated": "2025-02-19T19:37:43.585911-08:00"
+		},
+		{
+			"Name": "dark",
+			"Info": "",
+			"Version": "3.14",
+			"Source": "main",
+			"Updated": "2025-02-19T18:42:15.3573814-08:00"
+		},
+		{
+			"Name": "espanso",
+			"Info": "",
+			"Version": "2.2.1",
+			"Source": "main",
+			"Updated": "2025-02-19T18:41:54.0863739-08:00"
+		},
+		{
+			"Name": "everything",
+			"Info": "",
+			"Version": "1.4.1.1026",
+			"Source": "extras",
+			"Updated": "2025-02-19T18:41:56.2860871-08:00"
+		},
+		{
+			"Name": "flow-launcher",
+			"Info": "",
+			"Version": "1.19.5",
+			"Source": "extras",
+			"Updated": "2025-02-20T17:42:58.2567803-08:00"
+		},
+		{
+			"Name": "innounp",
+			"Info": "",
+			"Version": "2.64.1",
+			"Source": "main",
+			"Updated": "2025-02-19T18:41:51.2648823-08:00"
+		},
+		{
+			"Name": "micro",
+			"Info": "",
+			"Version": "2.0.14",
+			"Source": "main",
+			"Updated": "2025-02-19T18:53:01.7965621-08:00"
+		},
+		{
+			"Name": "mpv.net",
+			"Info": "",
+			"Version": "7.1.1.0",
+			"Source": "extras",
+			"Updated": "2025-02-19T18:41:58.1463516-08:00"
+		},
+		{
+			"Name": "obsidian",
+			"Info": "",
+			"Version": "1.8.7",
+			"Source": "extras",
+			"Updated": "2025-02-19T18:42:14.3259201-08:00"
+		},
+		{
+			"Name": "powertoys",
+			"Info": "",
+			"Version": "0.88.0",
+			"Source": "extras",
+			"Updated": "2025-02-19T18:42:40.3835902-08:00"
+		},
+		{
+			"Name": "scoop-search",
+			"Info": "",
+			"Version": "2.0.0",
+			"Source": "main",
+			"Updated": "2025-02-19T18:42:41.0072231-08:00"
+		},
+		{
+			"Name": "sharex",
+			"Info": "",
+			"Version": "17.0.0",
+			"Source": "extras",
+			"Updated": "2025-02-19T18:42:44.3554267-08:00"
+		},
+		{
+			"Name": "SpaceMono-NF-Mono",
+			"Info": "",
+			"Version": "3.3.0",
+			"Source": "nerd-fonts",
+			"Updated": "2025-02-19T18:41:30.2514877-08:00"
+		},
+		{
+			"Name": "starship",
+			"Info": "",
+			"Version": "1.22.1",
+			"Source": "main",
+			"Updated": "2025-02-19T18:42:54.4749762-08:00"
+		},
+		{
+			"Name": "steam",
+			"Info": "",
+			"Version": "nightly-20250219",
+			"Source": "versions",
+			"Updated": "2025-02-19T18:42:55.1861428-08:00"
+		},
+		{
+			"Name": "translucenttb",
+			"Info": "",
+			"Version": "2024.4",
+			"Source": "extras",
+			"Updated": "2025-02-19T19:21:09.4931284-08:00"
+		},
+		{
+			"Name": "vscode",
+			"Info": "",
+			"Version": "1.97.2",
+			"Source": "extras",
+			"Updated": "2025-02-19T18:43:10.311029-08:00"
+		},
+		{
+			"Name": "winscp",
+			"Info": "",
+			"Version": "6.3.7",
+			"Source": "extras",
+			"Updated": "2025-02-24T17:53:15.9586371-08:00"
+		}
+	]
+}
