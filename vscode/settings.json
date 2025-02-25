@@ -7,7 +7,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "editor.mouseWheelZoom": true,
     "editor.suggestSelection": "first",
-    "editor.experimentalInlineEdit.showToolbar": "onHover",
     "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
