@@ -32,7 +32,9 @@ gc extensions.txt | % { code --install-extension $_ }
 
 Copy `settings.json` into user settings in VSCode.
 
-## Scoop Install
+## Scoop Install (Windows)
+
+`winget install --id Microsoft.PowerShell --source winget`
 
 ### Install Scoop in Powershell
 
