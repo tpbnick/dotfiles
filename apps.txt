@@ -1,6 +1,0 @@
-dolphin
-discord
-firefox-developer-edition
-kitty
-mpv
-visual-studio-code-bin

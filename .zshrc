@@ -1,7 +1,6 @@
 # run `exec zsh` after updating to refresh zsh
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
-CASE_SENSITIVE="true"
 
 # ------
 # Plugins
@@ -21,7 +20,7 @@ export EDITOR='micro'
 
 alias updatesys='sudo pacman -Syyu'
 alias open='dolphin . >/dev/null 2>&1 &'
-alias c='clear'
+alias c='code .'
 alias home='cd ~'
 
 # ctrl delete/backspace functionality
