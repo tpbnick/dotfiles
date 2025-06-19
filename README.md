@@ -28,9 +28,10 @@ notepad $PROFILE
 . $PROFILE
 ```
 
-### Applications:
 <details>
-<summary><strong>🌐 Web Browsers</strong></summary>
+### <summary><strong>Applications</strong></summary>
+
+## 🌐 Web Browsers
 
 - **[Chromium](https://github.com/chromium/chromium)**
 
@@ -54,86 +55,56 @@ notepad $PROFILE
 
 </details>
 
-</details>
-
-<details>
-<summary><strong>📝 Text Editors & IDEs</strong></summary>
+## 📝 Text Editors & IDEs
 
 - **[VSCode](https://github.com/microsoft/vscode)**
 - **[Sublime Text](https://www.sublimetext.com/)**
 - **[micro](https://github.com/zyedidia/micro)**
 
-</details>
-
-<details>
-<summary><strong>📋 Text Expansion</strong></summary>
+## 📋 Text Expansion
 
 - **[Espanso](https://github.com/espanso/espanso)**
 
-</details>
-
-<details>
-<summary><strong>📚 Reading & Note-Taking</strong></summary>
+## 📚 Reading & Note-Taking
 
 - **[Obsidian](https://obsidian.md/)**
 - **[FBReader](https://fbreader.org/)**
 
-</details>
-
-<details>
-<summary><strong>🎵 Media & Entertainment</strong></summary>
+## 🎵 Media & Entertainment
 
 - **[Spotify](https://www.spotify.com/)**
 - **[mpvNet](https://github.com/stax76/mpv.net)**
 - **[Discord](https://discord.com/)**
 
-</details>
-
-<details>
-<summary><strong>📺 TV & Streaming</strong></summary>
+## 📺 TV & Streaming
 
 - **[OpenTV](https://opentv.github.io/)**
 
-</details>
-
-<details>
-<summary><strong>🛠 System Utilities</strong></summary>
+## 🛠 System Utilities
 
 - **[PowerToys](https://github.com/microsoft/PowerToys)**
 - **[FlowLauncher](https://github.com/Flow-Launcher/Flow.Launcher)**
 - **[AltSnap](https://github.com/RamonUnch/AltSnap)**
 - **[TranslucentTB](https://github.com/TranslucentTB/TranslucentTB)**
 
-</details>
-
-<details>
-<summary><strong>🖼 Media & Graphics</strong></summary>
+## 🖼 Media & Graphics
 
 - **[ShareX](https://github.com/ShareX/ShareX)**
 - **[Paint.NET](https://www.getpaint.net/)**
 
-</details>
-
-<details>
-<summary><strong>🔍 Search & File Management</strong></summary>
+## 🔍 Search & File Management
 
 - **[Everything](https://www.voidtools.com/)**
 - **[WinSCP](https://winscp.net/)**
 
-</details>
-
-<details>
-<summary><strong>🌐 Network, Security, & Backup</strong></summary>
+## 🌐 Network, Security, & Backup
 
 - **[Mullvad](https://mullvad.net/)**
 - **[BlueBubbles](https://github.com/BlueBubblesApp/BlueBubbles-Server)**
 - **[TailScale](https://tailscale.com/)**
 - **[Syncthing](https://github.com/syncthing/syncthing)**
 
-</details>
-
-<details>
-<summary><strong>🎨 Terminal & Shell</strong></summary>
+## 🎨 Terminal & Shell
 
 > Remember to install PowerShell profile!
 
@@ -144,10 +115,7 @@ notepad $PROFILE
 - **[Starship](https://github.com/starship/starship)**
 - **[Zoxide](https://github.com/ajeetdsouza/zoxide)**
 
-</details>
-
-<details>
-<summary><strong>🔤 Fonts</strong></summary>
+## 🔤 Fonts
 
 - **[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)** (SpaceMono and Hack)
 
