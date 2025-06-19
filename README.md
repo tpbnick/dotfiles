@@ -29,7 +29,7 @@ notepad $PROFILE
 ```
 
 <details>
-### <summary><strong>Applications</strong></summary>
+<summary><strong>Applications</strong></summary>
 
 ## 🌐 Web Browsers
 
