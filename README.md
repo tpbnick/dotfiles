@@ -10,19 +10,17 @@ Install with `scoop import scoop-list.json`. May also need a `scoop update *` af
 
 Note: Some applications are better installed outside of Scoop (PowerToys, PowerShell, Sublime Text) and should be installed via conventional methods (direct download/Microsoft Store).
 
-Powershell profile also included as `Microsoft.PowerShell_profile.ps1`. How to install:
+Powershell profile also included as `PowerShell_profile.ps1`. How to install:
 
 ```sh
 # Check if PROFILE exists
-Test-Path $PROFILE
+if (-not (Test-Path $PROFILE)) {
+    # Create PROFILE if it doesn't exist
+    New-Item -Path $PROFILE -Type File -Force
+}
 
-# Create PROFILE if it doesn't exist
-New-Item -Path $PROFILE -Type File -Force
-
-# Open PROFILE to edit
-notepad $PROFILE
-
-# Paste in contents of Microsoft.PowerShell_profile.ps1
+# Push contents of Microsoft.PowerShell_profile.ps1 into PROFILE
+Set-Content -Path $PROFILE -Value (Get-Content -Path ".\Microsoft.PowerShell_profile.ps1")
 
 # Reload PROFILE
 . $PROFILE
