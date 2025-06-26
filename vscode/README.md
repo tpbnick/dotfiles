@@ -3,7 +3,6 @@
 ## Install extensions:
 
 ```shell
-cd vscode
 # Linux
 cat extensions.txt | xargs -L1 code --install-extension
 # Windows (Powershell)
