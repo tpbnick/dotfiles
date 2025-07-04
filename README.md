@@ -19,8 +19,8 @@ if (-not (Test-Path $PROFILE)) {
     New-Item -Path $PROFILE -Type File -Force
 }
 
-# Push contents of Microsoft.PowerShell_profile.ps1 into PROFILE
-Set-Content -Path $PROFILE -Value (Get-Content -Path ".\Microsoft.PowerShell_profile.ps1")
+# Push contents of PowerShell_profile.ps1 into PROFILE
+Set-Content -Path $PROFILE -Value (Get-Content -Path ".\PowerShell_profile.ps1")
 
 # Reload PROFILE
 . $PROFILE
