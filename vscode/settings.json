@@ -18,7 +18,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.startupEditor": "none",
-    "terminal.integrated.fontFamily": "Hack NF",
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
     "git.enableSmartCommit": true,
     "git.openRepositoryInParentFolders": "never",
     "editor.accessibilitySupport": "off",

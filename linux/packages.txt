@@ -1,0 +1,20 @@
+# Core shell & CLI utilities (Debian / Ubuntu apt)
+zsh
+curl
+wget
+git
+git-lfs
+unzip
+build-essential
+fd-find
+fzf
+micro
+ripgrep
+zoxide
+python3
+python3-pip
+pipx
+ffmpeg
+mpv
+pass
+tldr

@@ -1,0 +1,75 @@
+tap "hashicorp/tap"
+
+# Shell & CLI Utilities
+brew "eza"
+brew "fastfetch"
+brew "fd"
+brew "fzf"
+brew "git"
+brew "git-lfs"
+brew "micro"
+brew "ripgrep"
+brew "starship"
+brew "tlrc"
+brew "zoxide"
+
+# Development & Runtimes
+brew "go"
+brew "lazydocker"
+brew "lazygit"
+brew "node"
+brew "pipx"
+brew "python@3.12"
+brew "rust"
+brew "uv"
+
+# Cloud & Kubernetes
+brew "hashicorp/tap/terraform"
+brew "helm"
+brew "k9s"
+brew "localstack"
+
+# Media & Utilities
+brew "ffmpeg"
+brew "mpv"
+brew "pass"
+brew "yt-dlp"
+
+# Fonts
+cask "font-hack-nerd-font"
+
+# Browsers
+cask "google-chrome"
+
+# Text Editors, IDEs & Terminals
+cask "ghostty"
+cask "visual-studio-code"
+cask "zed"
+
+# Reading & Note-Taking
+cask "obsidian"
+
+# Media & Communication
+cask "discord"
+cask "iina"
+cask "iptvnator"
+cask "slack"
+cask "spotify"
+cask "steam"
+cask "telegram"
+
+# Network, Security & Remote
+cask "bitwarden"
+cask "ente-auth"
+cask "mullvad-vpn"
+cask "rustdesk"
+
+# Containers & System Utilities
+cask "blip"
+cask "cyberduck"
+cask "itsycal"
+cask "keka"
+cask "mac-mouse-fix"
+cask "orbstack"
+cask "pinta"
+cask "rectangle"
