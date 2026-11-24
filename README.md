@@ -14,12 +14,14 @@ My dotfiles and dev environment setup, kept synced across **Linux (Debian / Ubun
 ├── macos/
 │   ├── .zshrc            # Zsh config (synced with linux/.zshrc)
 │   ├── .zprofile         # Homebrew & OrbStack login shell environment
-│   └── Brewfile          # Homebrew formulae & casks
+│   ├── Brewfile          # Homebrew formulae & casks
+│   └── defaults.sh       # macOS system preferences
 ├── vscode/
 │   ├── README.md         # VSCode setup instructions
 │   ├── extensions.txt    # VSCode extensions list
 │   └── settings.json     # VSCode user settings
-└── .gitconfig            # Shared Git configuration
+├── .gitconfig            # Shared Git configuration
+└── install.sh            # Cross-platform symlink installer (Linux & macOS)
 ```
 
 ## Table of Contents
@@ -33,6 +35,7 @@ My dotfiles and dev environment setup, kept synced across **Linux (Debian / Ubun
 - **[macOS](#macos)**
   - [Packages](#macos-packages)
   - [Shell Setup](#macos-shell-setup)
+  - [System Defaults](#macos-system-defaults)
   - [Fonts](#macos-fonts)
   - [Applications](#macos-applications)
   - [Git and VSCode](#macos-git-and-vscode)
@@ -82,11 +85,11 @@ Uses **Zsh** with **Zinit**, **Starship**, **Zoxide**, and **Fzf** (no separate 
    ```sh
    chsh -s "$(which zsh)"
    ```
-2. Symlink [`linux/.zshrc`](./linux/.zshrc) and [`ghostty/config`](./ghostty/config):
+2. Symlink configs with [`install.sh`](./install.sh) (backs up any existing files automatically):
    ```sh
-   ln -sf "$PWD/linux/.zshrc" ~/.zshrc
-   mkdir -p ~/.config/ghostty
-   ln -sf "$PWD/ghostty/config" ~/.config/ghostty/config
+   ./install.sh
+   # Or also install VSCode extensions:
+   ./install.sh --vscode
    ```
 3. Reload Zsh (Zinit automatically bootstraps itself and installs plugins on first launch):
    ```sh
@@ -216,12 +219,11 @@ Managed with [Homebrew](https://brew.sh/) (`macos/Brewfile`) and kept synced wit
 
 Uses **[Ghostty](https://ghostty.org/)** + **Zsh** with **Zinit**, **Starship**, **Zoxide**, and **Fzf** (no separate Oh My Zsh install needed — Zinit pulls only the OMZ snippets used) — synced with the Linux setup.
 
-1. Symlink [`macos/.zshrc`](./macos/.zshrc), [`macos/.zprofile`](./macos/.zprofile), and [`ghostty/config`](./ghostty/config):
+1. Symlink configs with [`install.sh`](./install.sh) (backs up any existing files automatically):
    ```sh
-   ln -sf "$PWD/macos/.zshrc" ~/.zshrc
-   ln -sf "$PWD/macos/.zprofile" ~/.zprofile
-   mkdir -p "$HOME/Library/Application Support/com.mitchellh.ghostty"
-   ln -sf "$PWD/ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
+   ./install.sh
+   # Or also apply macOS defaults and install VSCode extensions:
+   ./install.sh --defaults --vscode
    ```
 2. Reload Zsh (Zinit automatically bootstraps itself and installs plugins on first launch):
    ```sh
@@ -235,6 +237,14 @@ Uses **[Ghostty](https://ghostty.org/)** + **Zsh** with **Zinit**, **Starship**,
 - `zsh-users/zsh-syntax-highlighting`
 - `zsh-users/zsh-history-substring-search`
 - `OMZL::git.zsh`, `OMZP::git`, `OMZP::sudo`, `OMZP::command-not-found`
+
+### macOS System Defaults
+
+Apply your saved macOS preferences (Dark Mode, Dock auto-hide & hover delay, Finder list view / path bar / status bar / folders first, tap-to-click, non-natural scrolling, no `.DS_Store` on network/USB volumes):
+
+```sh
+./macos/defaults.sh
+```
 
 ### macOS Fonts
 
